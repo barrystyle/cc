@@ -49,7 +49,6 @@ int nCoinbaseMaturity = 10;
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 double PERF_TIMER = 0;
-int BLOCK_TRUST = 300000;
 
 uint256 nBestChainTrust = 0;
 uint256 nBestInvalidTrust = 0;
